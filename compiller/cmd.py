@@ -18,3 +18,5 @@ if testfilename.testfilename(filename):
     print('Strings: ' + str(strs))
 
     analyse.analyse(strs)
+
+    print(analyse.errors)
