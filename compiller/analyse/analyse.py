@@ -16,7 +16,7 @@ def error(typeOfError, line, string):
         return False
     
 def analyse(strs):
-    i = 0
+    i = 1
     for string in strs:
         tokens = string.split(' ')
 
